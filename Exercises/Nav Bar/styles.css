@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(rgb(231, 101, 101), blue);
+    font-family: "montserrat", sans-serif;
+    height: 100vh;
+}
+
+.nav{
+    list-style: none;
+    background-color: rgb(148, 43, 78);
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    width: auto;
+    height: 80px;
+    margin: 2% auto;
+}
+
+.nav a{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.nav li:first-child{
+    margin-right: auto;
+}
