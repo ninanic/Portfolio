@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Color Change</title>
+</head>
+<style>
+    body {
+        background-color: coral;
+    }
+</style>
+
+<body>
+    <div style="Color: White;text-align: center;padding: 15%;" id="text">
+        <h1>Text Color Change</h1>
+        <button id="color">Change Color</button>
+    </div>
+
+    <script>
+        //Button and div elements
+
+        const div = document.getElementById('text');
+        const button = document.getElementById('color');
+
+        //Array of colors 
+        const colors = ["red", "blue", "green", "yellow", "purple"];
+
+        // Attach event listener to button
+button.addEventListener('click', function() {
+  let currentColorIndex = 0; // Initialize current color index
+
+  return function() {
+    // Update color of div element
+    div.style.color = colors[currentColorIndex % colors.length];
+    currentColorIndex++;
+  };
+}());
+    </script>
+</body>
+</html>
