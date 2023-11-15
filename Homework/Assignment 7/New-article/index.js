@@ -1,5 +1,5 @@
 // variables
-const generalBtn = document.getElementById("genral");
+const generalBtn = document.getElementById("General");
 const businessBtn = document.getElementById("business");
 const sportsBtn = document.getElementById("sport");
 const entertainmentBtn = document.getElementById("entertainment");
