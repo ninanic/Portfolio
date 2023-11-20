@@ -1,0 +1,22 @@
+1. Bootstrap is a free and open source CSS framework that was developed to create responsive layouts easily. The key features and advantages of bootstrap are consistency, customization,
+cross-browser compatibility, responsiveness and user centric. 
+ 
+2. Bootstrap's grid system is used to organize content and components in the body region of a layout. You can create responsive layouts with the grid system by making sure that all 
+HTML elements have the box-sizing property set to border box. 
+
+3. Bootstrap components are important building blocks that make designing responsive websites more efficient. They can range from buttons, badges and even alerts.
+
+4. Variables are used to store values. Functions are used to summarize a task that can used over and over. Lopps allow you to repeat a process without having to write the same code.
+
+5. The difference between var, let and const is that var variables can be updated and re-declared while let variables can only be updated not re-declared, 
+and const variables cannot do either.
+
+6. Event handling in JavaScript is used to process actions that happene whenever a user interacts with the page. An example would be when a button is clicked.
+
+7. To create and maniputlate the DOM using JavaScript you would first have to access the doc object first, after that you can manipulate it using properties and methods available to it.
+
+8. AJAX is a asynchronous way to make web applications more responsive. Whenever someone intereacts with the it, the server will update the web page without having to refresh the whole page.
+
+9. The concept of callbacks in JavaScript is a function that is passed as an argument to another function.
+
+10. The importance of responsive web design is to avoid the unnecessaries such as resizing, scrolling and zomming that happens when sites are not improved. 

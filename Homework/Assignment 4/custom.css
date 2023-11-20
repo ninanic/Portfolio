@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Caprasimo;
+  src: url(Font/Caprasimo-Regular.ttf);
+}
+/* Style Jumbotron */
+.jumbotron {
+  background-image: linear-gradient(to top, black, transparent), url("Images/donuts1.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Caprasimo";
+}
+
+.jumbotron p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Segoe UI";
+}
+
+/* Navigation Style */
+.navbar {
+  background-color: #E6348E;
+  font-family: Caprasimo;
+}
+
+.navbar-brand {
+  color: white;
+  margin-left: 20px;
+}
+
+.navbar-brand:hover {
+  color: #FFCA2B;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #FFCA2B;
+}
+
+/* Card Styles */
+.card {
+  background-color: #E6348E;
+  color: #fff;
+}
+
+.card-title {
+  font-family: Caprasimo;
+  color: #fff;
+}/*# sourceMappingURL=custom.css.map */
